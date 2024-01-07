@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layanan MSI</title>
+
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!--icon website-->
+    <link
+      rel="icon"
+      href="https://w7.pngwing.com/pngs/690/524/png-transparent-laptop-msi-logo-video-game-laptop-electronics-computer-shield.png"
+    />
+    <!-- feather icons-->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- link css-->
+    <link rel="stylesheet" href="otniel.css" />
+  </head>
+
+  <body>
+    <!--Navbar start-->
+    <nav class="navbar">
+      <a href="https://id.msi.com/index.php" class="navbar-logo">MSI</a>
+
+      <div class="navbar-nav">
+        <a href="homepage.html">Home</a>
+        <a href="daftar.html">Daftar</a>
+        <a href="#home">Layanan</a>
+        <a href="aboutus.html">About us</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="https://id.msi.com/support" id="search"
+          ><i data-feather="search"></i
+        ></a>
+        <a href="https://id.msi.com/page/hot-line" id="phone"
+          ><i data-feather="phone"></i
+        ></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!--Navbar end-->
+
+    <div class="img">
+      <img src="annie-spratt-QckxruozjRg-unsplash.jpg" alt="Deskripsi Gambar" />
+    </div>
+    <div class="text-overlay">
+      <h1>Selamat Datang di Layanan <span>MSI</span></h1>
+    </div>
+    <!--Hero Section start-->
+    <section class="hero" id="home">
+      <main class="content">
+        <h2>Hubungi Kami</h2>
+        <p>
+          Kami siap membantu menyelesaikan masalah apa pun yang mungkin kamu
+          miliki tentang produk MSI kami.
+        </p>
+      </main>
+    </section>
+    <!--Hero Section end-->
+
+    <!-- Membuat Tabel Form-->
+    <div class="container">
+      <form action="otniel2.html" method="GET">
+        <div class="input-box">
+          <input type="text" placeholder="Nama" required />
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Nomor HP" required />
+        </div>
+        <div class="input-box">
+          <input type="email" placeholder="Email" required />
+        </div>
+
+        <textarea
+          rows="4"
+          input
+          type="text"
+          placeholder="Pesan"
+          required
+        ></textarea>
+
+        <div class="box" required>
+          <input
+            type="checkbox"
+            name="checklist"
+            value="checklist"
+            required
+          />Saya bersedia dihubungi oleh tim MSI baik melalui telfon ataupun
+          email dan menyetujui kebijakan Privasi sebagaimana ditetapkan oleh MSI
+          dari waktu ke waktu
+        </div>
+        <button class="submit-button" type="submit">Submit</button>
+      </form>
+    </div>
+    <!-- Membuat Tabel Form-->
+
+    <!--dark mode-->
+    <section>
+      <span class="switch" id="moon" onclick="setDarkMode(true)"
+        ><i data-feather="moon"></i
+      ></span>
+      <span class="switch" id="sun" onclick="setDarkMode(false)"
+        ><i data-feather="sun"></i
+      ></span>
+    </section>
+
+    <!--Footer start-->
+    <footer>
+      <div class="social">
+        <a href="https://www.instagram.com/msi_indonesia/" id="instagram"
+          ><i data-feather="instagram"></i
+        ></a>
+        <a href="https://www.facebook.com/MSI.Indonesia/" id="facebook"
+          ><i data-feather="facebook"></i
+        ></a>
+        <a href="https://twitter.com/msi_indonesia" id="twitter"
+          ><i data-feather="twitter"></i
+        ></a>
+      </div>
+      <div class="links">
+        <a href="homepage.html">Home</a>
+        <a href="daftar.html">Daftar</a>
+        <a href="#home">Layanan</a>
+        <a href="aboutus.html">About Us</a>
+      </div>
+      <div class="credit">
+        <p>Copyright &copy; 2023 Otniel;Ben;Yosua;Kristinof.</p>
+      </div>
+    </footer>
+
+    <!--Footer end-->
+
+    <!-- Feather icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!--JavaScript-->
+    <script src="otniel.js"></script>
+  </body>
+</html>
